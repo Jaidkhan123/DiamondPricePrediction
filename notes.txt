@@ -1,0 +1,9 @@
+First of all we need to create an environment
+    conda create -p venv python==3.8
+
+now we have to activate that 
+    conda activate venv/
+
+in requirments.txt 
+    -e . // it will link to the setup.txt to run 
+    and by using it a error occurs of meta-data which is fixed in setup.py
