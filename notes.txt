@@ -1,9 +1,10 @@
-First of all we need to create an environment
-    conda create -p venv python==3.8
+conda create -p venv python==3.9
 
-now we have to activate that 
-    conda activate venv/
+conda activate venv/     in cmd
 
-in requirments.txt 
-    -e . // it will link to the setup.txt to run 
-    and by using it a error occurs of meta-data which is fixed in setup.py
+git init
+
+git add README.md 
+
+git add .
+
